@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>waaa waaaa games</title>
+<style>
+body {
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: linear-gradient(to bottom, #1f1f1f, #000); /* Black gradient background */
+color: #fff;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}
+
+.navbar {
+width: -35%; /* Adjusted width */
+background: linear-gradient(to right, #000, #111); /* Dark gradient background */
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 5px 10px; /* Reduced padding */
+position: fixed;
+top: 10px; /* Adjusted to add some space from the top */
+z-index: 1000; /* Ensure navbar stays on top */
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+border-radius: 15px; /* Rounded corners */
+}
+
+.navbar ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: flex-end; /* Align items to the right */
+width: 100%; /* Ensure ul spans the full width */
+}
+
+.navbar li {
+margin-left: 10px; /* Adjusted margin to separate icons */
+}
+
+.navbar a {
+display: flex;
+align-items: center;
+justify-content: center; /* Center the icon horizontally */
+color: #fff;
+text-decoration: none;
+padding: 5px; /* Reduced padding */
+border-radius: 10px; /* Rounded corners for icons */
+transition: background-color 0.3s ease;
+}
+
+.navbar a img {
+width: 20px; /* Adjust icon size */
+height: 20px;
+}
+
+.navbar a:hover {
+background-color: rgba(255, 255, 255, 0.2);
+border-radius: 30%; /* Make the icons circular on hover */
+}
+
+/* Styles for images section */
+.images {
+display: flex;
+justify-content: center;
+position: absolute;
+top: 100px; /* Adjusted position for the first row */
+}
+
+.images.row2 {
+top: 175px; /* Position for the second row */
+}
+
+.images img {
+width: 39px;
+height: 39px;
+margin: 0 10px;
+border-radius: 10px;
+border: 3px solid #000;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+cursor: pointer; /* Add cursor pointer for usability */
+}
+
+.images img:hover {
+transform: scale(1.1);
+}
+
+.useful {
+background-color: white;
+font-family: Arial;
+z-index: 100;
+position: absolute;
+left: 100px;
+top: 100px;
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+<ul>
+<li><a href="#" onclick="blank('https://example.com');"><img src="https://i.imgur.com/3IlbJXr.png" alt="home"></a></li>
+<li><a href="#" onclick="blank('https://example.com');"><img src="https://i.imgur.com/tfdJGAN.png" alt="search"></a></li>
+<li><a href="#" onclick="blank('https://example.com');"><img src="https://i.imgur.com/OjAAYoL.png" alt="game"></a></li>
+<li><a href="#" onclick="blank('https://example.com');"><img src="https://i.imgur.com/hPZq4cz.png" alt="app"></a></li>
+</ul>
+</div>
+
+<!-- 1st row -->
+<div class="images">
+<img src="https://th.bing.com/th/id/OIP.XW_OsPwLtSFaQrOSHEr5eAHaHa?rs=1&pid=ImgDetMain" alt="Image 1" onclick="blank('https://xn--l8jyc6av9xzc.jodymaroni.com/compiled/fnaf1/index.html');">
+<img src="https://1.bp.blogspot.com/-R1yOKj2C788/YK53UlMl_lI/AAAAAAAAAOw/wvNl-6yMMOQQ-x4RKUtzXkO9kwVKB9uZgCNcBGAsYHQ/w680/images.jpeg" alt="Image 2" onclick="blank('https://xn--l8jyc6av9xzc.jodymaroni.com/compiled/fnaf2/');">
+<img src="https://assets-prd.ignimgs.com/2022/12/02/pizza-tower-button-02-1670021139476.jpg" alt="Image 3" onclick="blank('https://play.gx.games/game-wrapper/8a1b3c75-0273-4f80-8069-f4014102524d/index.html?game=5086c453-b86d-4ab2-ba09-22259722f057&track=35d56f7f-2a8b-4661-b69f-c868cb855467&release=05c9eeb7-c541-43e1-a45d-e8815195c432&gamePlayId=87c99909-75d8-4bc8-9711-dc4f9d8f704a');">
+<img src="https://i.imgur.com/NVI3G6I.png" alt="Image 4" onclick="blank('https://newbody.vercel.app/Mario_64-OFFLINE.html');">
+<img src="https://th.bing.com/th/id/R.9d0bdbd48b96dc29e6dc015082209462?rik=XlC3BCr1QNkK4w&pid=ImgRaw&r=0" alt="Image 5" onclick="blank('https://somuchmath.global.ssl.fastly.net/projects/retro-bowl/index.html');">
+<img src="https://play-lh.googleusercontent.com/v7KwGdPjJGjJjRXn46sck4DwDBdKSeRzGN44CjiXUtKV0jjOi51Bt4wcXud0m-SkXg=w240-h480-rw" alt="Image 6" onclick="blank('https://ovo-alpha.vercel.app/versions/1.4.4b/index.html');">
+<img src="https://somuchmath.global.ssl.fastly.net/projects/subway-surfers-ny/NewYorkIcon.png" alt="Image 7" onclick="blank('https://a6936-19375562.cluster7.canvas-user-content.com/courses/6936~1010708/files/6936~19375562/course%20files/vfcd/index.html?context_id=6936~1010708context_type=Course&download=1&id=69360000019375562&inline=1');">
+<img src="https://somuchmath.global.ssl.fastly.net/projects/fnaw/splash.png" alt="Image 8" onclick="blank('https://eldritchdev2.github.io/Website-v2/fnaw/index.html');">
+<img src="https://i.imgur.com/aGtv30F.jpeg" alt="Image 9" onclick="blank('https://sonic-mania-web2.vercel.app/RSDKv5.html');">
+<img src="https://i.imgur.com/NTjcDnT.png" alt="Image 10" onclick="blank('https://cloudfuntime.vercel.app/clients.html');">
+<img src="https://i.imgur.com/jGzK4gJ.png" alt="Image 11" onclick="blank('https://nzp.gay');">
+<img src="https://i.imgur.com/Y1TfKhC.png" alt="Image 11" onclick="blank('https://rayvonisamonkey.yourmom.eu.org');">
+</div>
+
+<!-- 2nd row -->
+<div class="images row2">
+<img src="https://th.bing.com/th/id/R.3cc7b68d78f953133c4eae9a97b874dd?rik=Qu5mbezd5qr32Q&pid=ImgRaw&r=0" alt="Image 6" onclick="blank('https://notsoshuntepic.onrender.com/semag/basketrandom/index.html');">
+<img src="https://th.bing.com/th/id/OIP.Ou7_x0DT5SP8InmVfgoWkgHaHa?rs=1&pid=ImgDetMain" alt="Image 7" onclick="blank('https://notsoshuntepic.onrender.com/semag/gladihoppers/index.html');">
+<img src="https://i.imgur.com/A0nDeBI.png" alt="Image 8" onclick="blank('https://sans.nyaasu.top');">
+<img src="https://mac-web.github.io/macvg/projects/backrooms-2d/Backrooms2D.png" alt="Image 9" onclick="blank('https://mac-web.github.io/macvg/projects/backrooms-2d/game.html');">
+<img src="https://somuchmath.global.ssl.fastly.net/projects/basketbros-io/thumb.jpg" alt="Image 10" onclick="blank('https://nbadebate.com');">
+<img src="https://i.imgur.com/61pbiVU.png" alt="Image 11" onclick="blank('https://notsoshuntepic.onrender.com/semag/gdlite/index.html');">
+<img src="https://i.imgur.com/RhrbvRk.png" alt="Image 12" onclick="blank('https://netquake.io');">
+<img src="https://i.imgur.com/YN9f9hW.png" alt="Image 13" onclick="blank('https://levelsharesquare.com/html5/supermarioconstruct/');">
+<img src="https://i.imgur.com/rlCjfUm.png" alt="Image 14" onclick="blank('https://html-classic.itch.zone/html/2876359-1004346/index.html');">
+<img src="https://i.imgur.com/HyAw7fn.png" alt="Image 15" onclick="blank('https://projects.sappharad.com/s3air_ios/20240202_beta/sonic3air_web.html');">
+<img src="https://i.imgur.com/emI68dh.png" alt="Image 16" onclick="blank('https://play.gx.games/game-wrapper/8a1b3c75-0273-4f80-8069-f4014102524d/index.html?game=08b93af2-db0e-4f0d-bab9-c9a828026b2c&track=65c0acd7-f637-417a-a966-acb669d245b6&release=b6ed7d1c-f715-40b9-b815-186c1ebfc173&gamePlayId=c9699a48-b7da-456c-8da2-c2bf86650d15');">
+<img src="https://i.imgur.com/mPkixbN.png" alt="Image 16" onclick="blank('https://levelsharesquare.com/html5/yoshisfabricationstation/');">
+
+</div>
+
+<script>
+function blank(url) {
+let win = window.open();
+win.document.body.style.margin = '0';
+win.document.body.style.height = '100vh';
+var iframe = win.document.createElement('iframe');
+iframe.style.border = 'none';
+iframe.style.width = '100%';
+iframe.style.height = '100%';
+iframe.style.margin = '0';
+iframe.src = url;
+win.document.body.appendChild(iframe);
+var fav = win.document.createElement('link');
+fav.setAttribute("rel", "icon");
+fav.setAttribute("type", "image/x-icon");
+fav.setAttribute("href", "https://ssl.gstatic.com/classroom/favicon.png");
+win.document.querySelector("head").appendChild(fav);
+var tit = win.document.createElement('title');
+tit.innerHTML = "Home";
+win.document.querySelector("head").appendChild(tit);
+}
+</script>
+</body>
+</html>
